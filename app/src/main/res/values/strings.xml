@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FoodGame</string>
+    <string name="food_game">FOOD GAME</string>
+    <string name="game1">GAME1</string>
+    <string name="game2">GAME2</string>
+    <string name="game3">GAME3</string>
+    <string name="play_the_3_games_in_any_order_you_like_once_you_play_a_game_you_cannot_play_it_again_after_playing_all_3_games_the_statistics_reset_and_you_can_play_any_game_again_game_allowances_are_also_saved_in_file">Play the 3 games in any order you like. Once you play a game, you cannot play it again. After playing all 3 games, the statistics reset and you can play any game again. Game allowances are also saved in file.</string>
+</resources>

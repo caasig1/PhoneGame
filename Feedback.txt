@@ -1,0 +1,38 @@
+Dear group_0592
+
+This semester, we talked about MVP, the Model-View-Presenter architecture. It has many advantages, particularly when working with Android. As you can see from your project, your activity classes have methods that are specific to Android. If you encapsulate the rest of your code sufficiently, it is possible to port it to another platform simply by creating a new UI (for example, a website).
+
+Encapsulation can take on many forms. You can package your View classes together. You can ensure that your dependencies go one-way, towards the inner more abstract layers. You can incorporate SOLID principles as much as possible and design patterns where they make sense.
+Here is feedback that is specific to your project:
+
+You made good use of…
++ Design patterns, including: Observer, Factories, Facades, Open-closed, Dependency Injection. You demonstrated how they would extend the project very well. 
++ Very well organized code with different level of complexities 
++ Abstracted the facades, the thread and the activity classes, and the statistics that were shared among the classes. 
++ Good improvement from phase 1 regarding encapsulations, and refactored code to remove redundancy.
++ Good class size and good encapsulation 
++ Javadoc and comments  were nicely maintained
++ Excellent work on Joystick feature
++ Also made the maze game complex by developing extendable matrix
++ Code is consistent so that, if a new feature or game is added, it may not affect the hole code, but just a localized part. 
++ The code was found to be a good start to Object-oriented Design
++ Very good presentation, clearly the result of much effort put in. You were able to cover: classes, the UML diagrams, and the design pattern used. 
+
+The user sees…
++ A scoreboard, smooth UI and user experience, three games which were Ingredient catcher, Maze Game and MonsterGame
++ The scoreboard was also very intuitive 
+
+A good next step would be to…
++ Eliminate the hardcoded values in MazeManager and elsewhere. You can do this by defining a class variable and setting its value. Then calling the class variable. Any change to the value of that variable will only have to happen once.
++ Consider ways that you can restructure your inheritance to eliminate “instanceof” and casting, such as in class MonsterManager.
++ In future, please use the built-in formatting feature of your IDE (in this case AndroidStudio) to format your code consistently.
++ Method update in TwoBounceMonster can be simplified. Consider how you could use helper methods.
++ Think a bit about how some of the classes might have shared methods (such as location getters and setters, position definitions etc) 
++ Refactor your code so that you can eliminate or use the “static” access modifier.
++ Is there a way that you can separate the UI from the rest of your code? For example, BadFood uses a Canvas. Can you think of a way to refactor the code so that this does not happen?
+
+We hope that you enjoyed working on this project and found it a useful learning experience.
+
+Cheers,
+The CSC207 Instructional Team
+

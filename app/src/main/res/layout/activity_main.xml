@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup_background"
+    tools:context=".Activities.MainActivity">
+
+    <Button
+        android:id="@+id/btnSinglePlayer"
+        android:layout_width="164dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="232dp"
+        android:text="Single Player"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTwoPLayer"
+        android:layout_width="166dp"
+        android:layout_height="73dp"
+        android:text="Two Player"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSinglePlayer"
+        app:layout_constraintVertical_bias="0.162" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    <EditText-->
+<!--        android:id="@+id/etUsername"-->
+<!--        style="@style/Widget.AppCompat.EditText"-->
+<!--        android:layout_width="205dp"-->
+<!--        android:layout_height="32dp"-->
+<!--        android:background="#9C93C0"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Username:"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:textAlignment="viewStart"-->
+<!--        android:textColor="#FC030000"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.304" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/etPassword"-->
+<!--        android:layout_width="205dp"-->
+<!--        android:layout_height="32dp"-->
+<!--        android:background="#9C93C0"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Password:"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:textColor="#FC030000"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/etUsername"-->
+<!--        app:layout_constraintVertical_bias="0.094" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnLogin"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Login"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.318"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/etPassword"-->
+<!--        app:layout_constraintVertical_bias="0.129" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnRegister"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Sign UP"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.272"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/btnLogin"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/etPassword"-->
+<!--        app:layout_constraintVertical_bias="0.127" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/etMessage"-->
+<!--        android:layout_width="285dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_marginBottom="372dp"-->
+<!--        android:textColor="#EBE5E5"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.616"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+
+
+
